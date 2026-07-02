@@ -1,0 +1,6 @@
+{
+  "name": "Grocery Expiry Tracker",
+  "description": "Track grocery items near expiration with color-coded alerts and get AI zero-waste recipe suggestions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
