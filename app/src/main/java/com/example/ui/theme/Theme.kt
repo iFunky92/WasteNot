@@ -13,12 +13,12 @@ import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
     primary = DarkNaturalOlive,
-    secondary = DarkNaturalLightGreen,
+    secondary = DarkNaturalOrange,
     tertiary = DarkNaturalBannerBg,
     background = DarkNaturalBg,
     surface = Color(0xFF1C1C19),
     onPrimary = DarkNaturalBg,
-    onSecondary = DarkNaturalText,
+    onSecondary = Color.White,
     onTertiary = DarkNaturalDarkGreenText,
     onBackground = DarkNaturalText,
     onSurface = DarkNaturalText,
@@ -29,12 +29,12 @@ private val DarkColorScheme = darkColorScheme(
 
 private val LightColorScheme = lightColorScheme(
     primary = NaturalOlive,
-    secondary = NaturalLightGreen,
+    secondary = NaturalOrange,
     tertiary = NaturalBannerBg,
     background = NaturalBg,
     surface = Color.White,
     onPrimary = Color.White,
-    onSecondary = NaturalDarkGreenText,
+    onSecondary = Color.White,
     onTertiary = NaturalOlive,
     onBackground = NaturalText,
     onSurface = NaturalText,

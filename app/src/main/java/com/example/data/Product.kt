@@ -12,7 +12,10 @@ data class Product(
     val purchaseDate: Long = System.currentTimeMillis(),
     val quantity: String = "",
     val notes: String = "",
-    val isConsumed: Boolean = false
+    val isConsumed: Boolean = false,
+    val imageUrl: String? = null,
+    val price: Double = 0.0,
+    val isB2bOnly: Boolean = false
 ) {
     fun getDaysRemaining(currentTime: Long = System.currentTimeMillis()): Int {
         val diff = expiryDate - currentTime
